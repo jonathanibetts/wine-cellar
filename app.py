@@ -293,3 +293,4 @@ else:
     m2.metric("Total Bottles", total_bottles)
     m3.metric("In Drinking Window", in_window)
     m4.metric("Last Refreshed", st.session_state.cellar[-1].get("last_refreshed", "Never") if st.session_state.cellar else "—")
+
